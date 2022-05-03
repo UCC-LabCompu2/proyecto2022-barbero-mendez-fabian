@@ -1,0 +1,31 @@
+body {
+    font-family: 'Fredericka the Great', cursive;
+    color: #f1f0e8;
+    background-image: url("Imagenes/FondoBandera.png");
+    background-size: cover;
+    padding: 20px;
+    margin: 70px;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item {
+    width: 400px;
+    height: 550px;
+    border: 5px solid #804000;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #434750;
+}
+
+.volver {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+

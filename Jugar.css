@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Imagenes/FondoArena.jpeg");
+}
+
+#Pista {
+    height: 701px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+#vehiculo1 {
+    width: 100px;
+    height: 200px;
+}
+
+#vehiculo2 {
+    width: 100px;
+    height: 200px;
+}
+
+.Vehiculo1 {
+    position: absolute;
+    bottom: 0;
+    left: 567px;
+}
+
+.Vehiculo2 {
+    position: absolute;
+    bottom: 0;
+    left: 817px;
+}
+
+.contenedor {
+    position: relative;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+
+.botonConteiner {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    margin: -25px 0 0 -25px;
+}
+
+#volver {
+    height: 70px;
+    width: 70px;
+}
+
+.volver {
+    position: absolute;
+    left: 5px;
+}

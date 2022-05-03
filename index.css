@@ -1,0 +1,80 @@
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url(Imagenes/fondo-bandera-cuadros-carreras.jpg);
+    background-size: cover;
+}
+
+h1 {
+
+    font-family: 'Tapestry', cursive;
+    font-size: 100px;
+    color: #000000;
+    text-shadow: 5px 5px 4px #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.vehiculo1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+    background-size: 356px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vehiculo2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+    background-size: 356px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vehiculoContent {
+    margin: 50px;
+}
+
+#comoUsar {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#jugar {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.jugar {
+    width: 200px;
+    margin: auto;
+}
+
+.comoUsar {
+    width: 180px;
+    margin: auto;
+}
+
+.margenEnlace {
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 19px;
+}
+
+img {
+    position: relative;
+    max-width: 25%;
+    max-height: 5%;
+}
