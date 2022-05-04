@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(Imagenes/fondo-bandera-cuadros-carreras.jpg);
+    background-image: url(Imagenes/FondoCarreraIndex.jpg);
     background-size: cover;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 #comoUsar {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
 }

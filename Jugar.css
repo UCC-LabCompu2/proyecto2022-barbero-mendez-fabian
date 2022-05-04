@@ -3,15 +3,13 @@ body, html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-image: url("Imagenes/FondoArena.jpeg");
 }
 
 #Pista {
-    height: 701px;
+    height: 1000px;
     width: 500px;
-    margin-left: 500px;
+    margin-left: 41%;
 }
 
 #vehiculo1 {
@@ -27,13 +25,13 @@ body {
 .Vehiculo1 {
     position: absolute;
     bottom: 0;
-    left: 567px;
+    left: 45%;
 }
 
 .Vehiculo2 {
     position: absolute;
     bottom: 0;
-    left: 817px;
+    left: 58%;
 }
 
 .contenedor {
@@ -48,12 +46,10 @@ button {
     margin: auto;
 }
 
-
 .botonConteiner {
     position: absolute;
-    top: 40%;
-    left: 46%;
-    margin: -25px 0 0 -25px;
+    left: 51%;
+    bottom: 70%;
 }
 
 #volver {
