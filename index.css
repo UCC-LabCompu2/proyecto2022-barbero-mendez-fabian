@@ -78,3 +78,28 @@ img {
     max-width: 25%;
     max-height: 5%;
 }
+
+a#jugar:hover{
+    color: #FFD102;
+}
+
+a#comoUsar:hover{
+    color: #FFD102;
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #F6E3CA;
+    border: #D7C8B6 2px solid;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
