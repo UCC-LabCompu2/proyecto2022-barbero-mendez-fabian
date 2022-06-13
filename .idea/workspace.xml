@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943f157c-04b7-4cf8-b4ce-4e9c5484ab2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Wireframe/Wireframe Como Usar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframe/Wireframe Inicio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframe/Wireframe Juego.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Proyecto2022-Barbero-Mendez-Fabian.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -45,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Imagenes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wireframe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -53,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mbarb\Escritorio\proyecto2022-barbero-mendez-fabian\Wireframe" />
       <recent name="C:\Users\mbarb\Escritorio\proyecto2022-barbero-mendez-fabian\Imagenes" />
       <recent name="C:\Users\mbarb\Escritorio\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
     </key>
@@ -75,7 +79,7 @@
       <workItem from="1651663297892" duration="1209000" />
       <workItem from="1651671523393" duration="20000" />
       <workItem from="1652275256239" duration="626000" />
-      <workItem from="1655129673898" duration="775000" />
+      <workItem from="1655129673898" duration="1216000" />
     </task>
     <servers />
   </component>
