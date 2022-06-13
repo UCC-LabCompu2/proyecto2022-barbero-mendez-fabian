@@ -1,55 +1,11 @@
-body, html {
-    height: 100%;
+body{
+    background-image: url("Imagenes/fondo-bandera-cuadros.jpg");
+    background-size: cover;
 }
 
-body {
-    background-image: url("Imagenes/FondoArena.jpeg");
-}
-
-#Pista {
-    height: 1000px;
-    width: 500px;
-    margin-left: 41%;
-}
-
-#vehiculo1 {
-    width: 100px;
-    height: 200px;
-}
-
-#vehiculo2 {
-    width: 100px;
-    height: 200px;
-}
-
-.Vehiculo1 {
-    position: absolute;
-    bottom: 0;
-    left: 45%;
-}
-
-.Vehiculo2 {
-    position: absolute;
-    bottom: 0;
-    left: 58%;
-}
-
-.contenedor {
-    position: relative;
-}
-
-button {
-    border-radius: 5px;
-    font-size: 30px;
-    color: rgb(245, 245, 245);
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: auto;
-}
-
-.botonConteiner {
-    position: absolute;
-    left: 51%;
-    bottom: 70%;
+canvas{
+    border: 1px solid black;
+    margin-left: 400px;
 }
 
 #volver {
@@ -60,4 +16,22 @@ button {
 .volver {
     position: absolute;
     left: 5px;
+}
+
+.iniciar{
+    text-align: center;
+    width: 200px;
+    float: left;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+button{
+    font-size: 50px;
+    background-color: #FFD102;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(235,183,2,1);
 }
