@@ -13,13 +13,66 @@
     <a href="index.html" target="_self"><img alt="FlechaVolver" id="volver" src="Imagenes/FlechaVolver.png"></a>
 </div>
 
+
+<div class="conteiner">
+    <div class="vehiculo1">
+        <form id="Formluario1">
+            <h2>Vehiculo 1</h2>
+            <div class="vehiculoContent">
+                <label for="Colores1">Color: <select id="Colores1" name="color1">
+                    <option value="blanco">Blanco</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="verde">Verde</option>
+                    <option value="azul">Azul</option>
+                </select></label>
+            </div>
+
+            <div class="vehiculoContent">
+                <label for="HP1"> HP: <input id="HP1" type="number" name="hp" min="0" max="1000" step="10"
+                                             value="0"></label>
+            </div>
+
+            <div class="vehiculoContent">
+                <label for="Peso1">Peso: <input id="Peso1" type="number" name="peso" min="800" max="2000" step="100"
+                                                value="800"></label>
+            </div>
+        </form>
+    </div>
+
+    <div class="vehiculo2">
+
+        <h2>Vehiculo 2</h2>
+
+        <div class="vehiculoContent">
+            <label for="Colores2">Color: <select id="Colores2" name="color2">
+                <option value="blanco">Blanco</option>
+                <option value="rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select></label>
+        </div>
+
+        <div class="vehiculoContent">
+            <label for="HP2"> HP: <input id="HP2" type="number" name="hp" min="0" max="1000" step="10"
+                                         value="0"></label>
+        </div>
+
+        <div class="vehiculoContent">
+            <label for="Peso2"> Peso: <input id="Peso2" type="number" name="peso" min="800" max="2000" step="100"
+                                             value="800"></label>
+        </div>
+
+    </div>
+</div>
+
     <div class="iniciar">
-        <button type="button" onclick="IniciarCarrera();">
+        <button type="button" onclick="DibujarAutos(); VerificarFormulario();">
             Iniciar
         </button>
     </div>
     <canvas width="600px" height="650px" id="miCanvas"></canvas>
     <script>IniciarPista();</script>
+    <script>DibujarAutos();</script>
 
 </body>
 </html>

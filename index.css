@@ -1,7 +1,4 @@
-.conteiner {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 body {
     background-image: url(Imagenes/FondoCarreraIndex.jpg);
@@ -17,29 +14,6 @@ h1 {
     margin: 0;
 }
 
-.vehiculo1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
-    background-size: 356px;
-    font-size: 20px;
-    color: white;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.vehiculo2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
-    background-size: 356px;
-    font-size: 20px;
-    color: white;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.vehiculoContent {
-    margin: 50px;
-}
 
 #comoUsar {
     font-size: 15px;
@@ -73,7 +47,7 @@ h1 {
 }
 
 img {
-    position: relative;
+    margin-left: 800px;
     max-width: 25%;
     max-height: 5%;
 }

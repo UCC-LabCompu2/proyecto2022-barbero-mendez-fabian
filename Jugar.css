@@ -3,6 +3,41 @@ body{
     background-size: cover;
 }
 
+.conteiner {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.vehiculo1 {
+    margin-left: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+    background-size: 356px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vehiculo2 {
+    margin-left: 25px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+    background-size: 356px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vehiculoContent {
+    margin: 50px;
+}
+
+
 canvas{
     border: 1px solid black;
     margin-left: 400px;
@@ -35,14 +70,15 @@ canvas{
 .iniciar{
     text-align: center;
     width: 200px;
-    float: left;
+    float: right;
     padding-top: 300px;
-    padding-left: 100px;
+    padding-right: 100px;
 }
 
 button{
     font-size: 50px;
     background-color: #FFD102;
+    border-radius: 10px;
 }
 
 button:hover{
