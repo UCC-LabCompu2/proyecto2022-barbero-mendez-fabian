@@ -13,6 +13,20 @@ canvas{
     width: 70px;
 }
 
+#miCanvas{
+    padding-left: 10px;
+    padding-right: 0;
+    margin-left: 300px;
+    margin-right: 500px;
+    vertical-align: middle;
+    display: block;
+    left: 370px;
+    height:908px;
+    width: 758px;
+    background-image: url("Imagenes/FondoArena.jpeg ");
+    position: fixed;
+}
+
 .volver {
     position: absolute;
     left: 5px;
