@@ -10,8 +10,8 @@ function IniciarPista(){
     var Pista = new Image();
     Pista.src = 'Imagenes/FondoPista.jpeg';
 
-    contexto.drawImage(Pista, 175, 200);
-    contexto.drawImage(Pista, 175, 0);
+    contexto.drawImage(Pista, 255, 260);
+    contexto.drawImage(Pista, 255, 0);
 }
 
 /**
@@ -27,8 +27,8 @@ function DibujarAutos(){
     var Pista = new Image();
     Pista.src = 'Imagenes/FondoPista.jpeg';
 
-    contexto.drawImage(Pista, 175, 200);
-    contexto.drawImage(Pista, 175, 0);
+    contexto.drawImage(Pista, 255, 260);
+    contexto.drawImage(Pista, 255, 0);
 
     var auto1 = document.getElementById("Colores1");
     var auto2 = document.getElementById("Colores2");
@@ -51,23 +51,23 @@ function DibujarAutos(){
     AutoVerde.src = "Imagenes/AutoVerde.png";
 
     if(auto1.selectedOptions[0].value === "blanco"){
-        contexto.drawImage(AutoBlanco, 205, 530, 50, 100);
+        contexto.drawImage(AutoBlanco, 285, 600, 50, 100);
     }else if(auto1.selectedOptions[0].value === "azul"){
-        contexto.drawImage(AutoAzul, 205, 530, 50, 100);
+        contexto.drawImage(AutoAzul, 285, 600, 50, 100);
     }else if(auto1.selectedOptions[0].value === "verde"){
-        contexto.drawImage(AutoVerde, 205, 530, 50, 100);
+        contexto.drawImage(AutoVerde, 285, 600, 50, 100);
     }else if(auto1.selectedOptions[0].value === "rojo"){
-        contexto.drawImage(AutoRojo, 205, 530, 50, 100);
+        contexto.drawImage(AutoRojo, 285, 600, 50, 100);
     }
 
     if(auto2.selectedOptions[0].value === "blanco"){
-        contexto.drawImage(AutoBlanco, 320, 530, 50, 100);
+        contexto.drawImage(AutoBlanco, 400, 600, 50, 100);
     }else if(auto2.selectedOptions[0].value === "azul"){
-        contexto.drawImage(AutoAzul, 320, 530, 50, 100);
+        contexto.drawImage(AutoAzul, 400, 600, 50, 100);
     }else if(auto2.selectedOptions[0].value === "verde"){
-        contexto.drawImage(AutoVerde, 320, 530, 50, 100);
+        contexto.drawImage(AutoVerde, 400, 600, 50, 100);
     }else if(auto2.selectedOptions[0].value === "rojo"){
-        contexto.drawImage(AutoRojo, 320, 530, 50, 100);
+        contexto.drawImage(AutoRojo, 400, 600, 50, 100);
     }
 }
 

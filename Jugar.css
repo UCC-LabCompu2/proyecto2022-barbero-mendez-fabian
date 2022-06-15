@@ -7,7 +7,7 @@ body{
     display: flex;
     padding: 10px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .vehiculo1 {
@@ -50,9 +50,10 @@ canvas{
 
 #miCanvas{
     padding-left: 10px;
-    padding-right: 0;
+    padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 500px;
+    margin-bottom: 10px;
     vertical-align: middle;
     display: block;
     left: 370px;
@@ -70,9 +71,9 @@ canvas{
 .iniciar{
     text-align: center;
     width: 200px;
-    float: right;
-    padding-top: 300px;
-    padding-right: 100px;
+    float: left;
+    padding-top: 550px;
+    padding-left: 150px;
 }
 
 button{
