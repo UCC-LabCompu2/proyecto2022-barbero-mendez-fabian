@@ -57,9 +57,9 @@ canvas{
     vertical-align: middle;
     display: block;
     left: 370px;
-    height:908px;
-    width: 758px;
-    background-image: url("Imagenes/FondoArena.jpeg ");
+    height: 600px;
+    width: 600px;
+    background-image: url("Imagenes/FondoArena.jpg ");
     position: fixed;
 }
 
