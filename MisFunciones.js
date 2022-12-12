@@ -78,7 +78,7 @@ function DibujarAutos(){
  */
 var IntervalID
 function startInterval(){
-    IntervalID = setInterval(AnimacionCarrera, 15);
+    IntervalID = setInterval(AnimacionCarrera, 1000/60);
 }
 
 /**
@@ -133,7 +133,7 @@ function VerificarFormulario(){
  */
 var x1 = 0;
 var x2 = 0;
-function AnimacionCarrera(IntervalID){
+function AnimacionCarrera(){
     var canvas = document.getElementById("miCanvas");
     var contexto = canvas.getContext("2d");
 
@@ -180,15 +180,39 @@ function AnimacionCarrera(IntervalID){
         }
     }else if(auto1.selectedOptions[0].value === "azul"){
         AutoAzul1.onload = function () {
-            contexto.drawImage(AutoAzul1, (canvas.width/2) - 140, 600, 80, 110);
+            contexto.drawImage(AutoAzul1, (canvas.width/2) - 140, 600-x1, 80, 110);
+        }
+
+        x1 += (HP1/Peso1)*10;
+        if(x1 > canvas.height){
+            alert("El vehiculo 1 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }else if(auto1.selectedOptions[0].value === "verde"){
         AutoVerde1.onload = function (){
-            contexto.drawImage(AutoVerde1, (canvas.width/2) - 140, 600, 80, 110);
+            contexto.drawImage(AutoVerde1,(canvas.width/2) - 140, 600 - x1, 80, 110);
+        }
+
+        x1 += (HP1/Peso1)*10;
+        if(x1 > canvas.height){
+            alert("El vehiculo 1 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }else if(auto1.selectedOptions[0].value === "rojo"){
         AutoRojo1.onload = function (){
-            contexto.drawImage(AutoRojo1, (canvas.width/2) - 140, 600, 80, 110);
+            contexto.drawImage(AutoRojo1,(canvas.width/2) - 140, 600 - x1, 80, 110);
+        }
+
+        x1 += (HP1/Peso1)*10;
+        if(x1 > canvas.height){
+            alert("El vehiculo 1 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }
 
@@ -199,18 +223,45 @@ function AnimacionCarrera(IntervalID){
         x2 += (HP2/Peso2)*10;
         if(x2 > canvas.height){
             alert("El vehiculo 2 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }else if(auto2.selectedOptions[0].value === "azul"){
         AutoAzul2.onload = function () {
-            contexto.drawImage(AutoAzul2, (canvas.width /2) + 25, 600, 80, 110);
+            contexto.drawImage(AutoAzul2,(canvas.width/2) + 25, 600 - x2, 80, 110);
+        }
+
+        x2 += (HP2/Peso2)*10;
+        if(x2 > canvas.height){
+            alert("El vehiculo 2 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }else if(auto2.selectedOptions[0].value === "verde"){
         AutoVerde2.onload = function (){
-            contexto.drawImage(AutoVerde2, (canvas.width/2) + 25, 600, 80, 110);
+            contexto.drawImage(AutoVerde2,(canvas.width/2) + 25, 600 - x2, 80, 110);
+        }
+
+        x2 += (HP2/Peso2)*10;
+        if(x2 > canvas.height){
+            alert("El vehiculo 2 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }else if(auto2.selectedOptions[0].value === "rojo"){
         AutoRojo2.onload = function (){
-            contexto.drawImage(AutoRojo2, (canvas.width/2) + 25, 600, 80, 110);
+            contexto.drawImage(AutoRojo2,(canvas.width/2) + 25, 600 - x2, 80, 110);
+        }
+
+        x2 += (HP2/Peso2)*10;
+        if(x2 > canvas.height){
+            alert("El vehiculo 2 gano la carrera");
+            x1 = 0;
+            x2 = 0;
+            stopInterval();
         }
     }
 }
